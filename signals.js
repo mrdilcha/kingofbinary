@@ -200,7 +200,7 @@ $(document).ready(function() {
                     </div>
                     <div class="notification-body">
                         <p>Your trade was successful!</p>
-                        <p class="profit-amount">+$${profit}</p>
+                        <p class="profit-amount">+$₹{profit}</p>
                     </div>
                 </div>
             `);
@@ -217,7 +217,7 @@ $(document).ready(function() {
                     </div>
                     <div class="notification-body">
                         <p>Your trade was unsuccessful.</p>
-                        <p class="loss-amount">-$${amount}</p>
+                        <p class="loss-amount">-$₹{amount}</p>
                     </div>
                 </div>
             `);
